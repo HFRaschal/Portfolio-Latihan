@@ -36,7 +36,7 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-    .about img {
+    img {
         max-width: 100%;
         height: auto;
     }
