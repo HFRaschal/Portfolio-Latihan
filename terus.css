@@ -1,0 +1,49 @@
+.jumbotron {
+    background-color: rgb(3, 81, 107);
+    text-align: center;
+    padding: 2rem;
+    color: lightyellow;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.about {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 4px solid black;
+    padding: 10px;
+}
+
+.kepala {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .about img {
+        max-width: 100%;
+        height: auto;
+    }
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
